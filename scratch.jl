@@ -4,7 +4,7 @@ using StochasticDelayDiffEq
 # using StochasticDiffEq
 using Statistics
 using Plots
-GR()
+gr()
 using DelimitedFiles
 using ZipFile
 # https://diffeq.sciml.ai/stable/features/progress_bar/#Using-Progress-Bars-Outside-Juno
