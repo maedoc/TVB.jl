@@ -11,7 +11,7 @@ using ZipFile
 using Logging: global_logger
 using TerminalLoggers: TerminalLogger
 global_logger(TerminalLogger())
-using DiffEqDevTools
+#using DiffEqDevTools
 
 function get_tvb_connectome()
     fname = "conn76.zip"
@@ -87,7 +87,7 @@ function compute_work_precision()
     wp = WorkPrecisionSet(prob,abstols,reltols,setups;numruns=10,names=names,maxiters=1e7,error_estimate=:l2)
     plot(wp)
 end
-compute_work_precision()
+#compute_work_precision()
 
 
 function sweep_alg()
