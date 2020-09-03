@@ -12,4 +12,8 @@ jobs:
         with:
           version: 1.5.1
       
-      - run: julia -e 'println("Hello, World!")'
+      - name: setup packages
+        run: julia -e 'import Pkg; Pkg.activate("."); Pkg.instatiate()'
+
+      - name: run algo sweep
+        run: julia scratch.jl
