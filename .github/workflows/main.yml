@@ -16,4 +16,4 @@ jobs:
         run: julia -e 'import Pkg; Pkg.activate("."); Pkg.instantiate()'
 
       - name: run algo sweep
-        run: julia scratch.jl
+        run: julia -e 'import Pkg; Pkg.activate("."); include("scratch.jl")'
