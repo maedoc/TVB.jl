@@ -13,7 +13,7 @@ jobs:
           version: 1.5.1
       
       - name: setup packages
-        run: julia -e 'import Pkg; Pkg.activate("."); Pkg.instatiate()'
+        run: julia -e 'import Pkg; Pkg.activate("."); Pkg.instantiate()'
 
       - name: run algo sweep
         run: julia scratch.jl
