@@ -1,0 +1,13 @@
+name = "VirtualBrain"
+uuid = "e3e765b3-00c1-41b1-87d1-117db35f94af"
+authors = ["Marmaduke Woodman <marmaduke.woodman@univ-amu.fr> and contributors"]
+version = "0.1.0"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1"
+
+[targets]
+test = ["Test"]
