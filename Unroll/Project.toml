@@ -1,0 +1,4 @@
+name = "Unroll"
+uuid = "34eef2aa-bdce-4c38-a2fe-13ea85445c05"
+authors = ["Marmaduke Woodman <marmaduke.woodman@univ-amu.fr>"]
+version = "0.1.0"

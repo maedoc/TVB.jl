@@ -3,11 +3,21 @@ uuid = "e3e765b3-00c1-41b1-87d1-117db35f94af"
 authors = ["Marmaduke Woodman <marmaduke.woodman@univ-amu.fr> and contributors"]
 version = "0.1.0"
 
-[extras]
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+[deps]
+AbstractFFTs = "621f4979-c628-5d54-868e-fcf4e3e8185c"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+StochasticDelayDiffEq = "29a0d76e-afc8-11e9-03a4-eda52ae4b960"
+Unroll = "36e64239-2ab9-4580-84fb-56737a503d36"
+ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 
 [compat]
 julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
 test = ["Test"]
